@@ -12,7 +12,7 @@ router.delete('/:id', async (req, res, next) => {
       res.json();
   
     } catch (error) {
-      next(error);
+        res.status(404).json({ error: 'El id requerido no existe'});
     }
   });
   
