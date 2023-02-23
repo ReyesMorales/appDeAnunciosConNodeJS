@@ -10,7 +10,7 @@ router.get('/:id', async (req, res, next) => {
         const anuncio = await Anuncio.findById(id);
         res.json(anuncio);
     } catch (error) {
-        next(error);
+        res.status(404).json({ error: 'El id requerido no existe'});
     }
 });
 
