@@ -15,7 +15,7 @@ router.put('/:id', async (req, res, next) => {
         res.json({ result: anuncioActualizado });
 
     } catch (error) {
-        next(error);
+        res.status(400).json({ error: 'Falta algún parámetro"'});
     }
 });
 
