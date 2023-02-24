@@ -6,7 +6,7 @@ const anuncioSchema = mongoose.Schema({
     descripcion: { type: String, required: true },
     tipo: { type: String, required: true },
     precio: { type: Number, required: true },
-    foto: { type: String, required: true },
+    foto: { type: String },
     tags: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Tag' }]
 });
 
