@@ -1,0 +1,204 @@
+[
+    {
+        "titulo": "Compro bicicleta de montaña",
+        "descripcion": "Estoy buscando una bicicleta de montaña en buen estado",
+        "tipo": "compra",
+        "precio": 200,
+        "tags": [
+            "motor",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro silla de oficina",
+        "descripcion": "Estoy buscando una silla de oficina con respaldo alto y ruedas",
+        "tipo": "compra",
+        "precio": 80,
+        "tags": [
+            "work"
+        ]
+    },
+    {
+        "titulo": "Compro smartphone Apple iPhone",
+        "descripcion": "Estoy buscando un smartphone Apple iPhone en buen estado",
+        "tipo": "compra",
+        "precio": 200,
+        "tags": [
+            "mobile",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro moto Harley-Davidson",
+        "descripcion": "Estoy buscando una moto Harley-Davidson en buen estado",
+        "tipo": "compra",
+        "precio": 5000,
+        "tags": [
+            "motor",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro escritorio de madera",
+        "descripcion": "Estoy buscando un escritorio de madera en buen estado",
+        "tipo": "compra",
+        "precio": 70,
+        "tags": [
+            "work",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro tablet Samsung Galaxy Tab",
+        "descripcion": "Estoy buscando una tablet Samsung Galaxy Tab en buen estado",
+        "tipo": "compra",
+        "precio": 100,
+        "tags": [
+            "mobile",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro amplificador para guitarra eléctrica",
+        "descripcion": "Estoy buscando un amplificador para guitarra eléctrica en buen estado",
+        "tipo": "compra",
+        "precio": 80,
+        "tags": [
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro moto Kawasaki Ninja",
+        "descripcion": "Estoy buscando una moto Kawasaki Ninja en buen estado",
+        "tipo": "compra",
+        "precio": 2000,
+        "tags": [
+            "motor",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro escritorio para computadora",
+        "descripcion": "Estoy buscando un escritorio para computadora en buen estado",
+        "tipo": "compra",
+        "precio": 100,
+        "tags": [
+            "work",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Compro reloj Garmin",
+        "descripcion": "Estoy buscando un reloj Garmin en buen estado",
+        "tipo": "compra",
+        "precio": 200,
+        "tags": [
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Bicicleta de montaña",
+        "descripcion": "Bicicleta de montaña en excelente estado",
+        "tipo": "venta",
+        "precio": 200,
+        "foto": "https://www.google.com/search?q=bicicleta+de+monta%C3%B1a+segunda+mano&sxsrf=AJOqlzUqWApW-402aVsmDS6hI7dSqIbshg:1677253844183&source=lnms&tbm=isch&sa=X&ved=2ahUKEwifh9K8wa79AhUnVKQEHX0gBhMQ_AUoAnoECAEQBA&biw=1366&bih=624#imgrc=RFJlUiJ8FCwWUM",
+        "tags": [
+            "motor"
+        ]
+    },
+    {
+        "titulo": "Silla de escritorio",
+        "descripcion": "Silla de escritorio con respaldo alto y ruedas",
+        "tipo": "venta",
+        "precio": 50,
+        "foto": "https://www.google.com/search?q=silla+de+escritorio+segunda+mano&tbm=isch&ved=2ahUKEwj0i-nrwa79AhU9XqQEHRddCiUQ2-cCegQIABAA&oq=silla+de+escri+segunda+mano&gs_lcp=CgNpbWcQARgAMgYIABAHEB46BAgjECdQsQ1Y1xFg9B5oAHAAeACAAX6IAbEDkgEDMS4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=N934Y7SUB728kdUPl7qpqAI&bih=624&biw=1366#imgrc=4ydViLrUPEwxNM",
+        "tags": [
+            "work"
+        ]
+    },
+    {
+        "titulo": "Smartphone Samsung",
+        "descripcion": "Smartphone Samsung Galaxy S10 en perfecto estado",
+        "tipo": "venta",
+        "precio": 300,
+        "foto": "https://www.google.com/imgres?imgurl=https%3A%2F%2Frealcash.es%2Fwp-content%2Fuploads%2F2023%2F01%2Fmsg5123033026-3852.jpg&imgrefurl=https%3A%2F%2Frealcash.es%2Ftelefono-movil-samsung-galaxy-s10e-6gb-ram-128gb-rom-dual-sim%2F&tbnid=-PtLia811HXJMM&vet=12ahUKEwjKgdWMwq79AhVvaqQEHYTNCOQQMygiegUIARCEAg..i&docid=zwknQt4MTex6qM&w=1280&h=960&q=smartphone%20samsung%20segunda%20mano&ved=2ahUKEwjKgdWMwq79AhVvaqQEHYTNCOQQMygiegUIARCEAg",
+        "tags": [
+            "mobile",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Moto Honda CBR",
+        "descripcion": "Moto Honda CBR 600 en excelente estado",
+        "tipo": "venta",
+        "precio": 5000,
+        "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cuimo.es%2Fmotos%2FHONDA-CBR-600F-2005-Toledo-19d7bae6&psig=AOvVaw1V0mYJwla3DiT7mvp5g-xo&ust=1677340524697000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDGv8PCrv0CFQAAAAAdAAAAABAE",
+        "tags": [
+            "motor",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Escritorio de madera",
+        "descripcion": "Escritorio de madera con cajones y repisas",
+        "tipo": "venta",
+        "precio": 100,
+        "foto": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.fotos.mundotenerife.es%2Fhogar%2F113-ho%2Ffotos%2Fescritorio%2C-mesa-de-estudio-113-ho-1.jpg&imgrefurl=https%3A%2F%2Fwww.mundotenerife.es%2Fescritorio-mesa-de-estudio-de-segunda-mano-fotos-y-detalles-referencia-113-ho&tbnid=FcC4jtpSVWAjfM&vet=12ahUKEwi7_tjcwq79AhU4VaQEHYsHCjcQMygSegUIARDoAQ..i&docid=Oy4VFeUAalSgbM&w=800&h=600&q=escritorio%20de%20madera%20segunda%20mano&ved=2ahUKEwi7_tjcwq79AhU4VaQEHYsHCjcQMygSegUIARDoAQ",
+        "tags": [
+            "work",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Tablet Apple iPad",
+        "descripcion": "Tablet Apple iPad en perfecto estado",
+        "tipo": "venta",
+        "precio": 400,
+        "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Frealcash.es%2Ftablet-apple-ipad-7agen-wifi-32gb%2F&psig=AOvVaw1B1AgAs-n_cWyH-AcMj94k&ust=1677340642141000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCb0fvCrv0CFQAAAAAdAAAAABAE",
+        "tags": [
+            "mobile"
+        ]
+    },
+    {
+        "titulo": "Guitarra eléctrica",
+        "descripcion": "Guitarra eléctrica con amplificador",
+        "tipo": "venta",
+        "precio": 300,
+        "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.milanuncios.com%2Fguitarras-electricas%2Fepiphone-les-paul.htm&psig=AOvVaw3vilJNrNGKSs-i2lX1fEm7&ust=1677340703537000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLDLlpnDrv0CFQAAAAAdAAAAABAE",
+        "tags": [
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Moto Yamaha R1",
+        "descripcion": "Moto Yamaha R1 1000cc en excelente estado",
+        "tipo": "venta",
+        "precio": 8000,
+        "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cuimo.es%2Fmotos%2FYAMAHA-YZF-R1-2002-Madrid-7e504ada&psig=AOvVaw3DAu6IGQehvwoDKs50EZuc&ust=1677340746088000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiQmq3Drv0CFQAAAAAdAAAAABAE",
+        "tags": [
+            "motor",
+            "lifestyle"
+        ]
+    },
+    {
+        "titulo": "Mesa de trabajo",
+        "descripcion": "Mesa de trabajo con espacio para herramientas",
+        "tipo": "venta",
+        "precio": 150,
+        "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.milanuncios.com%2Fbricolaje%2Fmesa-de-trabajo.htm&psig=AOvVaw0_pwy-GhrUYtwKMFwsxTwL&ust=1677340797319000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiZzMXDrv0CFQAAAAAdAAAAABAE",
+        "tags": [
+            "work"
+        ]
+    },
+    {
+        "titulo": "Reloj Apple Watch",
+        "descripcion": "Reloj Apple Watch Series 5 en perfecto estado",
+        "tipo": "venta",
+        "precio": 250,
+        "foto": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.manzanasusadas.com%2Fapple-segunda-mano-218%2Fcomprar-vender-watch-series-5&psig=AOvVaw1_pF7dM5Cfn5mz9tzLSB9Z&ust=1677340839351000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJiy29nDrv0CFQAAAAAdAAAAABAE",
+        "tags": [
+            "mobile",
+            "lifestyle"
+        ]
+    }
+]
