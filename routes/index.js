@@ -2,18 +2,20 @@ var express = require('express');
 var router = express.Router();
 const getAdvertsRouter = require('./getAdverts');
 const createAdvertRouter = require('./createAdvert');
-const getAdvertById = require('./getAdvertById');
-const updateAdvert = require('./updateAdvert');
-const deleteAdvert = require('./deleteAdvert');
+const getAdvertByIdRouter = require('./getAdvertById');
+const updateAdvertRouter = require('./updateAdvert');
+const deleteAdvertRouter = require('./deleteAdvert');
+const getTagsRouter = require('./getTags');
 
 const Anuncio = require('../models/Anuncio');
+const Tag = require('../models/Tag');
 
 /* GET home page. */
 router.use('/getadverts', getAdvertsRouter);
 router.use('/createadvert', createAdvertRouter);
-router.use('/getAdvertById', getAdvertById);
-router.use('/updateAdvert', updateAdvert);
-router.use('/deleteAdvert', deleteAdvert);
-
+router.use('/getAdvertById', getAdvertByIdRouter);
+router.use('/updateAdvert', updateAdvertRouter);
+router.use('/deleteAdvert', deleteAdvertRouter);
+router.use('/getTags', getTagsRouter);
 
 module.exports = router;
