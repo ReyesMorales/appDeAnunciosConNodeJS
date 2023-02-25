@@ -1,23 +1,69 @@
 # Nodepop
 
-Install dependencies with:
+Es un servicio de anuncios de articulos de segunda mano.
+
+## Instrucciones de instalacion
+
+Instalamos las dependencias con:
 
 ```sh
 npm install
 ```
 
-Start in development mode:
+Para comenzar en modo desarrollo:
 
 ```sh
 npm run dev
 ```
 
+Iniciamos la base de datos:
 
-## Genral info
+```sh
+npm run initDB
+```
 
-Application created with:
+## Informacion general
+
+Aplicacion creada con:
 
 ```sh
 npx express-generator nodepop --ejs
 ```
+## Iniciamos MongoDB Server en Macos o Linux
+
+En la consola de MongoDB ejecutamos el siguiente archivo:
+
+```sh
+./bin/mongod --dbpath ./data
+```
+
+
+## Metodos API 
+
+|   Metodo  |    URL                                       | Descripcion                  |   Error   |
+| :-------- | :--------------------------------------------| :-------------------------   | :---------|
+|    GET    | `https://http://127.0.0.1:3000/`             | Muestra todos los anuncios   |           |
+|    GET    | `https://http://127.0.0.1:3000/getadverts`   | Muestra todos los anuncios   |           |
+|    GET    | `https://http://127.0.0.1:3000/getadvertbyid`| Filtra por el id del anuncio | 404       |
+|    GET    | `https://http://127.0.0.1:3000/gettags`      | Muestra los tags existentes  |           |
+|    POST   | `https://http://127.0.0.1:3000/createadvert` | Crea anuncios nuevos         | 400       |
+|    PUT    | `https://http://127.0.0.1:3000/updateadvert` | Actualiza el anuncio         | 400       |
+|   DELETE  | `https://http://127.0.0.1:3000/deleteadvert` | Elimina un  anuncio          | 404       |
+### GET /
+Esta ruta nos devuelve todos los anuncios. Podemos aplicar filtros de búsqueda por tag(motor, work, lifestyle o mobile), por tipo(compra o venta), por precio(establece un rango entre precio_min y precio_max) o por titulo(busca la palabra indicada en el titulo del anuncio). Este es un ejemplo de lo que nos devuelve:
+
+{
+    "results": [
+        {
+    _id: new ObjectId("63f8f31967bd6d7dae485688"),
+    titulo: 'Reloj Apple Watch',
+    descripcion: 'Reloj Apple Watch Series 5 en perfecto estado',
+    tipo: 'venta',
+    precio: 250,
+    foto: 'https://image-reloj.jpg',
+    tags: [ [motor], [lifestyle] ]
+  },
+        ...
+    ]
+}
 
