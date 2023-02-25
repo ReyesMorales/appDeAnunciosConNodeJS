@@ -14,7 +14,7 @@ mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 
     console.log('Documentos eliminados con éxito');
 
-    // Asignamos los tags existentes a los anuncios y los insertamos en la base de datos
+  
     // Crear los tags
     const tags = [
       { nombre: 'motor' },
@@ -22,10 +22,12 @@ mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
       { nombre: 'work' },
       { nombre: 'mobile' }
     ];
+
     await Tag.insertMany(tags)
       .then(() => console.log('Tags creados con éxito'))
       .catch(error => console.log(error));
 
+     // Asignamos los tags existentes a los anuncios y los insertamos en la base de datos
     const anunciosConTags = anunciosJson.map(async anuncio => {
       const tagIds = await Tag.find({ nombre: { $in: anuncio.tags } }).distinct('_id');
       return { ...anuncio, tags: tagIds };
@@ -35,10 +37,7 @@ mongoose.connect(dbUrl, { useNewUrlParser: true, useUnifiedTopology: true })
 
       await Anuncio.insertMany(results);
       console.log('Anuncios creados con éxito');
-
-      // Insertar los tags en la base de datos
     });
-
 
     // Cerramos la conexión a la base de datos
     mongoose.connection.close();

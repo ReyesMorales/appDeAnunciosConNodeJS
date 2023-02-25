@@ -27,11 +27,13 @@ router.get('/', async (req, res, next) => {
         }
 
         const anuncios = await Anuncio.find(filtros)
-      .populate('tags', 'nombre') // Agregar populate para obtener los nombres de los tags
+      .populate('tags', 'nombre') 
       .skip(skip)
       .limit(limit);
 
         res.json(anuncios);
+
+        
     } catch (error) {
         next(error)
     }

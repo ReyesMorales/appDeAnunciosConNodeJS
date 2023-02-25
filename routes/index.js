@@ -12,7 +12,7 @@ const getHomePage = require('./getHomePage');
 const Anuncio = require('../models/Anuncio');
 const Tag = require('../models/Tag');
 
-/* GET home page. */
+/* API methods */
 router.use('/getadverts', getAdvertsRouter);
 router.use('/createadvert', createAdvertRouter);
 router.use('/getAdvertById', getAdvertByIdRouter);

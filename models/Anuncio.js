@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-//definir esquema de anuncio
+//Definir esquema de anuncio
 const anuncioSchema = mongoose.Schema({
     titulo: { type: String, required: true },
     descripcion: { type: String, required: true },
@@ -10,10 +10,10 @@ const anuncioSchema = mongoose.Schema({
     tags: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Tag' }]
 });
 
-//crear modelo de anuncio
+//Crear modelo de anuncio
 const Anuncio = mongoose.model('Anuncio', anuncioSchema);
 
-//exportar el modelo
+//Exportar el modelo
 module.exports = Anuncio;
 
 

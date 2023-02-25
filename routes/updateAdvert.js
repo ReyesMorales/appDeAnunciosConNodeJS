@@ -9,7 +9,7 @@ router.put('/:id', async (req, res, next) => {
         const data = req.body;
 
         const anuncioActualizado = await Anuncio.findByIdAndUpdate(id, data, {
-            new: true // esto hace que nos devuelva el documento actualizado
+            new: true 
         });
 
         res.json({ result: anuncioActualizado });
